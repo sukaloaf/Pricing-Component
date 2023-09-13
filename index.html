@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Pricing Component with Toggle</title>
+  </head>
+  <body>
+    <div class="bgTop">
+      <img src="./images/bg-top.svg" alt="Top Background Image" />
+    </div>
+    <div class="bgBottom">
+      <img src="./images/bg-bottom.svg" alt="Background Bottom Image" />
+    </div>
+    <div class="top">
+      <div class="title"><p>Our Pricing</p></div>
+      <div class="toggleText">
+        <p>Anually</p>
+        <label class="toggleBox">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+        <p>Monthly</p>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="basic">
+        <div class="sideTitle">
+          <p>Basic</p>
+        </div>
+        <div class="sidePrice"><p>$199.99</p></div>
+        <div class="sideText">
+          <p>500 GB Storage</p>
+          <p>2 Users Allowed</p>
+          <p>Send up to 3 GB</p>
+        </div>
+        <div>
+          <button class="sideButton">Learn More</button>
+        </div>
+      </div>
+      <div class="professional">
+        <div class="middleTitle">
+          <p>Professional</p>
+        </div>
+        <div class="middlePrice"><p>$249.99</p></div>
+        <div class="middleText">
+          <p>1 TB Storage</p>
+          <p>5 Users Allowed</p>
+          <p>Send up to 10 GB</p>
+        </div>
+        <div>
+          <button class="middleButton">Learn More</button>
+        </div>
+      </div>
+      <div class="master">
+        <div class="sideTitle">
+          <p>Master</p>
+        </div>
+        <div class="sidePrice"><p>$399.99</p></div>
+        <div class="sideText">
+          <p>2 TB Storage</p>
+          <p>10 Users Allowed</p>
+          <p>Send up to 20 GB</p>
+        </div>
+        <div>
+          <button class="sideButton">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
